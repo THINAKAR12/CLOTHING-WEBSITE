@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html lang ="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint" content="width device-width,initial-scale=1.8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
             online shopping-clothing website
         </title>
         <link rel="stylesheet" href="login.css">
     </head>
     <body>
-        <header id="head">
-            <h1>UNLIGHT CLOTHING</h1>
-        </header>
         <div id="main-con">
+            <header id="head"><h1>UNLIGHT CLOTHING</h1></header>
             <div id="navbar">
                 <ul>
                     <li class="list"><a href="index.html">HOME</a></li>
@@ -22,46 +20,34 @@
                     <li class="list" id="right"><a href="login.html">LOGIN</a></li>
                 </ul>
             </div>
-            <div id="background1">
+            <div id="background">
                 <header><h2>LOGIN FORM</h2></header><br><br>
-                <div id="log">
+                <div id="form-con">
                 <table>
-                    <form action="" methods="">
-                        <tr>
-                            <td><label for="name">NAME:</label></td>
-                            <td><input type="text"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="mail">MAIL ID:</label></td>
-                            <td><input type="email"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="password">PASSWORD:</label></td>
-                            <td><input type="password"></td>
-                        </tr>
-                        <tr>
-                            <td><input type="submit"></td>
-                        </tr>
+                    <form action="" method="">
+                        <tr><td><input type="text" class="size" placeholder="Name" required></td></tr>
+                        <tr><td><input type="email" class="size" placeholder="Email" required ></td></tr>
+                        <tr><td><textarea name="Message" class="size" placeholder="Message" rows="5" cols="60"></textarea></td></tr>
+                        <tr><td id="btn"><input type="submit" id="sub" value="Submit"></td></tr>
                     </form>
                 </table>
                 </div>
             </div>
-            <div id="row">
-                <footer>
-                    <h1 id="foot">UNLIGHT CLOTHING</h1>
-                </footer>
-                <div>
+              <footer>
+                <h1 id="foot">UNLIGHT CLOTHING</h1>
+            <div class="foot">
+                <div id="con">
                     <ul id="unorder">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="products.html">PRODUCTS</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="index.html">HOME</a></li><br>
+                        <li><a href="products.html">PRODUCTS</a></li><br>
+                        <li><a href="contact.html">CONTACT</a></li><br>
+                        <li><a href="about.html">ABOUT</a></li><br>
                         <li><a href="login.html">LOGIN</a></li>
                     </ul>
                 </div>
                 <div id="con">
-                     <p><h3 id="align">CONTACT</h3><br>
-                        <p id="align">Please feel free to contact us & we would be happy to assist you!</p>
+                    <h3 id="align">CONTACT</h3><br>
+                        <p id="align">Please feel free to contact us & we would be happy to assist you!<br>
                             <h3>Email Ids:</h3>
                             <b>For Sales :</b> sales@unlightclothing.in<br>
                             <b>For Support:</b> support@unlightclothing.in<br>
@@ -70,17 +56,18 @@
                             <h3>Phone Numbers:</h3>
                             <b>Sales:</b> 000-000-0000<br>
                             <b>Support:</b> 000-000-0000
-                    </p>
+                        </p>
                 </div>
-                <div id="abo">
-                    <p><h3 id="align">ABOUT</h3><br>Welcome to UNLIGHT CLOTHING, where fashion meets comfort and individuality.<br>
-                        We are passionate about crafting clothing that not only looks great but feels amazing too.<br>
-                        Whether you’re dressing up for a special occasion, staying casual, or exploring unique styles,
+                <div id="con">
+                    <h3 id="align">ABOUT</h3>
+                    <p id="align"><br>Welcome to UNLIGHT CLOTHING,<br>where fashion meets comfort and individuality.<br><br>
+                        We are passionate about crafting clothing<br>that not only looks great but feels amazing too.<br>
+                        Whether you're dressing up for a special occasion,<br> staying casual, or exploring unique styles,<br>
                         we have something for everyone.</p>
                 </div>
             </div>
-            <p id="copy">UNLIGHT CLOTHING|All Copyrights Reserved © 2025</p>
-        </div>
+            <p id="copy"><a id="align" href="index.html">UNLIGHT CLOTHING</a> | All Copyrights Reserved © 2025</p>
+            </footer>
     </body>
 </html>
 

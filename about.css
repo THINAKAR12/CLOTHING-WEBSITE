@@ -3,12 +3,8 @@
     margin:0;
     padding:0;
 }
-#main-con{
-    max-width:100%;
-    height: 1000px;
-}
-header{
-    background-color:black;
+#head{
+    background-color: black;
 }
 header h1{
     text-align: center;
@@ -20,16 +16,15 @@ header h2{
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 8px;
+    padding-bottom: 80px;
     color:black;
 }
 #navbar{
     position: sticky;
-    top:0;
+    top: 0;
 }
 ul{
     list-style-type: none;
-    margin:0;
-    padding: 0;
     overflow: hidden;
     background-color: rgb(24, 91, 107);
 }
@@ -43,23 +38,22 @@ ul{
     text-decoration: none;
 }
 .list a:hover{
-    background-color: brown;
+    color: black;
+    border-radius: 18px;
 }
 #right{
     float: right;
 }
+
+/*row-1*/
+
 #background{
     max-width: 100%;
-    height: 1000px;
+    height: 1200px;
     background-image: url(image/backgroundimage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-#head{
-    text-align: center;
-    background: none;
-    color:black;
 }
 #details{
     max-width:60%;
@@ -68,6 +62,19 @@ ul{
     font-size: larger;
     text-align:left;
 }
+
+/* footer */
+
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+#con{
+    flex:33%;
+    color: white;
+    background-color: black;
+}
 #foot{
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -75,10 +82,6 @@ ul{
     color: blueviolet;
 }
 #unorder{
-    width: 30%;
-    height: 260px;
-    margin:auto;
-    float: left;
     list-style-type: none;
     margin:0;
     padding: 25px 100px;
@@ -90,24 +93,18 @@ li a{
     text-decoration: none;
     padding: 12px 12px;
 }
-#row{
-    max-width: 100%;
-    height: 90px;
-    margin:auto;
-    background-color: black;
+li a:hover{
+    color: blueviolet;
 }
-#con,#abo{
-    width: 40%;
-    height: 260px;
-    float: left;
-    margin:auto;
-    padding: 20px 12px;
+#copy{
+    background-color: black;
     color: white;
-    background-color: black;
-}
-#abo{
-    width: 30%;
+    padding: 20px;
 }
 #copy,#align{
     text-align: center;
+    text-decoration: none;
 }
+
+
+
