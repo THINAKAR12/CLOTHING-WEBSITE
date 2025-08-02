@@ -106,5 +106,23 @@ li a:hover{
     text-decoration: none;
 }
 
+/*responsive*/
+
+@media (max-width:905px) {
+    .foot{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #foot{
+        text-align: center;
+    }
+    #con{
+        margin-bottom: 30px;
+    }
+}
+
+
+
 
 
